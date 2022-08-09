@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="flex flex-col w-full md:flex-row justify-center items-center md:justify-between bg-main py-16 px-12 md:px-14 lg:px-32 lg:py-32">
         <div className='order-last md:order-first'>
-        © 2022, built by Olwethu "Shak" Matiwana
+            © 2022, built by Olwethu "Shak" Matiwana
         </div>
         <div className='flex flex-col text-lg items-center mb-5 md:mb-0'>
             let's talk
@@ -14,7 +14,7 @@ const Footer = () => {
                 href="mailto:shakurxmatiwana@gmail.com"
                 className='link link-underline text-3xl tracking-wide font-semibold'
             >
-                <em>shakurxmatiwana@gmail</em>
+                <em>shakurxmatiwana@gmail.com</em>
             </a>
         </div>
         <div className='flex justify-evenly mb-5 md:mb-0'>

@@ -6,8 +6,12 @@ const Odyssey = () => {
             the <span className="text-main"><em>odyssey</em></span>
         </div>
         <div className="flex flex-col w-full max-w-2xl pt-9 pl-12 md:p-0">
+            <p className="text-white tracking-wide leading-7 font-extralight mb-5">
+                As a junior developer, I spend my time immersing myself in the world of web development. A big part of which includes creating original web apps that challenge me to learn new technologies and solutions - and broadening my understanding of core development concepts and patterns. The web development landscape is ever-changing and keeping up with the latest perpectives and methodologies is a significant aspect of my learning process.
+            </p>
+            {"\n"}
             <p className="text-white tracking-wide leading-7 font-extralight">
-                loremEst ex in sit Lorem enim fugiat reprehenderit eu commodo. Est quis commodo consequat exercitation adipisicing. Elit exercitation amet nostrud tempor irure. Mollit cupidatat nostrud nulla consectetur aliquip non ut ipsum. Quis cillum id velit eiusmod velit ut aliqua in elit officia eu do aliqua. Dolor incididunt pariatur cupidatat minim proident velit in consequat. Amet in laborum do laborum.
+              I'm looking forward to being an active member of a team of passionate developers, in order to have the privilege of soaking up a wealth of knowledge - as well as being able to pass on what I have learnt. I plan on thriving in applying my skills, keen initiatve and perspective on real business objectives.
             </p>
             <a
               href="https://drive.google.com/file/d/1pzxJ2PDaVLTzr142yycviunOROAIuqAy/view?usp=sharing"
@@ -16,7 +20,12 @@ const Odyssey = () => {
               target="_blank"
               
             >
-              <em className=" link link-underline">view my <span className="text-main">resume</span></em>
+              <em className=" link link-underline">
+                view my 
+                <span className="text-main">
+                  resume
+                </span>
+              </em>
             </a>
         </div>
     </section>

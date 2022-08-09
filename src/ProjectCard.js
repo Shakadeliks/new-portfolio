@@ -86,11 +86,18 @@ const ProjectCard = ({ name, stack, liveProject, github, description, moreDescri
                             <em className='link link-underline'>github <span className='text-main'>repo</span></em>
                         </a>
                     </div>
-                    <p className='text-white col-span-1 col-start-1 max-w-fit font-light tracking-wide leading-7 lg:max-w-lg'>
-                        {description}
-                        <br></br>
-                        {moreDescription}
-                    </p>
+                    <div>
+                        <p className='text-white col-span-1 col-start-1 max-w-fit mb-5 font-light tracking-wide leading-7 lg:max-w-lg'>
+                            {description}
+                        </p>
+                        {
+                            moreDescription.map(p => (
+                                <p className='text-white col-span-1 col-start-1 max-w-fit mb-5 font-light tracking-wide leading-7 lg:max-w-lg'>
+                                    {p}
+                                </p>
+                            ))
+                        }
+                    </div>
                     <button
                         className='bg-mainDark text-white w-32 px-3 py-1 mt-3 transition-colors duration-150 hover:bg-main hover:text-black'
                         onClick={handleReadMore}

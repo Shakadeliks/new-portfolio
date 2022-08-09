@@ -64,7 +64,11 @@ const Hero = () => {
                 
                 Hi, my name is Olwethu but you can call me <em>Shak</em>
             </h1>
-            <p className="text-md sm:text-lg md:text-xl lg:text-xl max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl bg-main text-black p-3 bg-opacity-50 tracking-wide leading-normal font-semibold">Walking the path of the modern web developer, armed with nothing but humililty, a desire to learn and a fat sack of killer tunes to dance along the way.</p>
+              <p
+                  className="text-md sm:text-lg md:text-xl lg:text-xl max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl bg-main text-black p-3 bg-opacity-50 tracking-wide leading-normal font-semibold"
+              >
+                  I'm a web developer based in Cape Town, South Africa. My goal is to work at a company where I can deliver business value and expand my experience as a developer.
+              </p>
         </div>  
         <video 
             autoPlay loop muted playsInline

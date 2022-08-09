@@ -18,7 +18,11 @@ export const projects = [
         liveProject: "https://asongaday.herokuapp.com/",
         github: "https://github.com/Shakadeliks/a-song-a-day",
         description: "A website for music lovers and listeners hungry for new sounds. A new song is recommended every day and users can try their luck with random song search based on any genre",
-        moreDescription: "Proident eiusmod adipisicing eu nisi. Velit consequat irure elit est ad eiusmod sit labore non et aliqua minim. Proident occaecat consequat duis incididunt officia sit ad. \n Ex quis aute deserunt eu voluptate sint ex. Aute sit ad proident quis. Culpa elit proident et reprehenderit culpa exercitation magna esse esse dolor. \n In velit do dolor occaecat aute eu labore commodo. Consequat ex tempor voluptate cupidatat. Eiusmod cillum qui culpa laborum aliquip do ea cillum sit excepteur nulla labore labore. Dolore labore excepteur culpa enim dolor. Dolor minim fugiat sunt est irure mollit cillum veniam consequat mollit elit.",
+        moreDescription: [
+            "This project is a fully server-side rendered web app, taking advantage of the performance benefits of this approach. I created a node server with express, which interacts with the Spotify API, using the client credentials flow, for all of the relevant song data to be provided to the client. The song of the day is received from the API and subsequently stored in the MongoDB until the client is visited the next day onwards. The current song will then be deleted from the database for the new song of the day to be saved.",
+            "A singificant aspect of developing the backend was understanding how to interact with the API. Multiple requests needed to be chained together and every request returned data that needed to be used in the next respective call to eventually end up with a song to be sent to the client. The project also exposed me to interacting with the HTMLAudioElement in order to create a straightforward music player for the songs returned from Spotify.",
+            "Going forward I would like to add and include a feature for music videos of the returned songs to be displayed and links for the user to be directed to either Spotify or Apple Music to listen to a recommended song in its entirety.",
+        ],   
         images: [
             Asad1,
             Asad2,
