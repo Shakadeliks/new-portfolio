@@ -1,5 +1,3 @@
-
-import React, { children } from 'react'
 import { FaHtml5, FaCss3Alt, FaReact, FaAngular, FaNode, FaGitAlt } from "react-icons/fa";
 import { SiJavascript, SiMongodb, SiTailwindcss, SiMaterialui, SiRedux, SiTypescript } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
