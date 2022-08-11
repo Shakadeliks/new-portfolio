@@ -14,7 +14,7 @@ const Odyssey = () => {
               I'm looking forward to being an active member of a team of passionate developers, in order to have the privilege of soaking up a wealth of knowledge - as well as being able to pass on what I have learnt. I plan on thriving in applying my skills, keen initiatve and perspective on real business objectives.
             </p>
             <a
-              href="https://drive.google.com/file/d/1RqiJWp7gDDETzPt2ZbnDD3wSfxNKrsCi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Fh7Iw0c6_51V-h3cAvTT_LJS7Mr4VPwV/view?usp=sharing"
               className="text-white mt-4 text-xl tracking-wide font-semibold"
               rel="noreferrer"
               target="_blank"
