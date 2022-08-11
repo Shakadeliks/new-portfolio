@@ -15,8 +15,8 @@ const ProjectCard = ({ name, stack, liveProject, github, description, moreDescri
                     <div className='text-white text-3xl col-span-1 mb-3'>{name}</div>
                     <ul className='col-start-1 flex justify-start max-w-md flex-wrap'>
                         {
-                            stack.map((s) => (
-                                <li className=' text-black font-semibold bg-main ml-0 my-2 mr-3 px-3 py-1'>{s}</li>
+                            stack.map((s, i) => (
+                                <li key={ i } className=' text-black font-semibold bg-main ml-0 my-2 mr-3 px-3 py-1'>{s}</li>
                             ))
                         }
                     </ul>
@@ -63,8 +63,8 @@ const ProjectCard = ({ name, stack, liveProject, github, description, moreDescri
                     <div className='text-white text-3xl col-span-1 mb-3'>{name}</div>
                     <ul className='col-start-1 flex justify-start max-w-md flex-wrap'>
                         {
-                            stack.map((s) => (
-                                <li className=' text-black font-semibold bg-main ml-0 my-2 mr-3 px-3 py-1'>{s}</li>
+                            stack.map((s, i) => (
+                                <li key={i} className=' text-black font-semibold bg-main ml-0 my-2 mr-3 px-3 py-1'>{s}</li>
                             ))
                         }
                     </ul>
@@ -91,8 +91,8 @@ const ProjectCard = ({ name, stack, liveProject, github, description, moreDescri
                             {description}
                         </p>
                         {
-                            moreDescription.map(p => (
-                                <p className='text-white col-span-1 col-start-1 max-w-fit mb-5 font-light tracking-wide leading-7 lg:max-w-lg'>
+                            moreDescription.map((p, i) => (
+                                <p key={i} className='text-white col-span-1 col-start-1 max-w-fit mb-5 font-light tracking-wide leading-7 lg:max-w-lg'>
                                     {p}
                                 </p>
                             ))
@@ -107,8 +107,9 @@ const ProjectCard = ({ name, stack, liveProject, github, description, moreDescri
                 </div>
                 <div className="flex flex-col gap-8 items-center">
                     {
-                        images.map(img => (
+                        images.map((img, i) => (
                             <img
+                                key={i}
                                 src={img}
                                 alt=''
                                 className='rounded-md border-main border-2 h-auto sm:max-w-md'

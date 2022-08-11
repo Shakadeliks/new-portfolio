@@ -21,10 +21,7 @@ const Odyssey = () => {
               
             >
               <em className=" link link-underline">
-                view my 
-                <span className="text-main">
-                  resume
-                </span>
+                view my <span className="text-main"> resume </span>
               </em>
             </a>
         </div>
